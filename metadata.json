@@ -1,0 +1,7 @@
+{
+  "name": "Qwest",
+  "description": "Indie fantasy pixel-art habit and quest tracker where everyday accomplishments power your adventurer's tavern and endless runs.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

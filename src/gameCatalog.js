@@ -1,0 +1,168 @@
+/**
+ * Game Catalog: Pets and Items
+ * Defines standard free items/pets and exclusive PRO unlocked pets/items.
+ */
+
+export const PET_CATALOG = [
+  // Standard Free Pets
+  {
+    id: "pet_forest_cat",
+    name: "Forest Cat",
+    title: "Whispering Wanderer",
+    description: "A small magical emerald forest cat with keen senses and padded paws.",
+    ability: "15% chance to recover 1 HP when passing distance milestones.",
+    icon: "🐱",
+    isPro: false,
+  },
+  {
+    id: "pet_moon_owl",
+    name: "Moon Owl",
+    title: "Silent Scholar",
+    description: "A mysterious nocturnal owl with glowing silver eyes and ancient knowledge.",
+    ability: "+25% bonus EXP from completed real-life quests.",
+    icon: "🦉",
+    isPro: false,
+  },
+  {
+    id: "pet_moss_golem",
+    name: "Moss Golem",
+    title: "Grove Guardian",
+    description: "A tiny, sturdy earthen golem formed from river stones and damp moss.",
+    ability: "20% chance to summon an earth shield and negate collision damage.",
+    icon: "🗿",
+    isPro: false,
+  },
+  {
+    id: "pet_wolf_pup",
+    name: "Wolf Pup",
+    title: "Loyal Scout",
+    description: "A swift, spirited young fantasy wolf companion with untamed vigor.",
+    ability: "+25% Adventure score bonus and higher coin drop rate.",
+    icon: "🐺",
+    isPro: false,
+  },
+
+  // PRO EXCLUSIVE UNLOCKED PETS
+  {
+    id: "pet_celestial_phoenix",
+    name: "Celestial Phoenix",
+    title: "Blazing Immortal",
+    description: "A majestic bird of incandescent solar flame. Resurrects from fallen ashes.",
+    ability: "Prevents death once per run + heals 50% HP. Grants +50% Gold from all quests.",
+    icon: "🔥",
+    isPro: true,
+  },
+  {
+    id: "pet_astral_dragon",
+    name: "Astral Dragon",
+    title: "Starlight Sovereign",
+    description: "An ancient cosmic dragon formed from concentrated stardust and starlight.",
+    ability: "Doubles EXP gained across all completed quests and automatically auto-loots coins.",
+    icon: "🐉",
+    isPro: true,
+  },
+  {
+    id: "pet_shadow_panther",
+    name: "Shadow Panther",
+    title: "Void Stalker",
+    description: "A sleek feline predator draped in eternal midnight shadows.",
+    ability: "35% chance to critical strike obstacle obstacles and bypass hazard penalties.",
+    icon: "🐆",
+    isPro: true,
+  },
+  {
+    id: "pet_frost_kitsune",
+    name: "Frost Kitsune",
+    title: "Nine-Tailed Mystic",
+    description: "An ethereal fox spirit surrounded by swirling crystalline snow.",
+    ability: "Freezes quest timers and multiplies daily streak bonus by 2x.",
+    icon: "🦊",
+    isPro: true,
+  },
+];
+
+export const ITEM_CATALOG = [
+  // Standard Free Items
+  {
+    id: "potion_heal",
+    name: "Healing Potion",
+    category: "POTIONS",
+    description: "A brewed vial of soothing mountain herbs. Restores 1 HP during Adventure Mode.",
+    effect: "+1 HP during Adventure",
+    price: 10,
+    icon: "🧪",
+    isPro: false,
+  },
+  {
+    id: "pet_egg",
+    name: "Pet Egg",
+    category: "PETS",
+    description: "A warm, patterned egg found in ancient ruins. Randomly hatches into a companion.",
+    effect: "Hatches a companion",
+    price: 50,
+    icon: "🥚",
+    isPro: false,
+  },
+  {
+    id: "equip_iron_boots",
+    name: "Iron Boots",
+    category: "EQUIPMENT",
+    description: "Sturdy steel-reinforced greaves worn by wandering rangers. Grants +1 max HP.",
+    effect: "+1 Max HP in Adventure",
+    price: 30,
+    icon: "👢",
+    isPro: false,
+  },
+  {
+    id: "equip_traveler_cloak",
+    name: "Traveler's Cloak",
+    category: "EQUIPMENT",
+    description: "A weather-beaten cloak lined with protective enchantments. Grants +1 max HP.",
+    effect: "+1 Max HP in Adventure",
+    price: 50,
+    icon: "🧥",
+    isPro: false,
+  },
+
+  // PRO EXCLUSIVE UNLOCKED ITEMS
+  {
+    id: "equip_sunfire_excalibur",
+    name: "Sunfire Excalibur",
+    category: "EQUIPMENT",
+    description: "The fabled solar blade forged by ancient celestial smiths. Radiates pure energy.",
+    effect: "+50% EXP bonus on all quest completions & +3 Max HP",
+    price: 0,
+    icon: "⚔️",
+    isPro: true,
+  },
+  {
+    id: "equip_aegis_eternity",
+    name: "Aegis of Eternity",
+    category: "EQUIPMENT",
+    description: "An indestructible shield etched with protective wards from the first era.",
+    effect: "Grants +5 Maximum HP and complete immunity to trap damage",
+    price: 0,
+    icon: "🛡️",
+    isPro: true,
+  },
+  {
+    id: "artifact_chronos_hourglass",
+    name: "Chronos Hourglass",
+    category: "ARTIFACTS",
+    description: "A celestial relic containing golden sand from the river of time.",
+    effect: "Instantly recharges missed daily habits and preserves broken streaks",
+    price: 0,
+    icon: "⏳",
+    isPro: true,
+  },
+  {
+    id: "cosmetic_crown_archmage",
+    name: "Crown of the Archmage",
+    category: "COSMETICS",
+    description: "A radiant tiara woven from concentrated arcane mana and floating gems.",
+    effect: "Glow aura in tavern, custom gold name flair, and +20% gold bonus",
+    price: 0,
+    icon: "👑",
+    isPro: true,
+  },
+];
